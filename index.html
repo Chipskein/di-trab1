@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design de interfaces</title>
+</head>
+<body>
+    <header>
+        <h1>Titulo</h1>
+        <p>
+            Lorem ipsum <i>dolor</i> sit amet consectetur adipisicing elit. Atque <b>veniam</b> maxime <i>aliquid</i> minus suscipit? <b>Vero</b>
+        </p>
+        <nav>
+            <ul>
+                <li>Menu</li>
+                <li>Principal</li>
+                <li>Produtos</li>
+                <li>Serviços</li>
+                <li>Sobre</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <ol>
+            <li>
+                Frutas
+                <ul>
+                    <li>Banana</li>
+                    <li>Maça</li>
+                    <li>Abacate</li>
+                </ul>
+            </li>
+            <li>
+                Legumes
+                <ul>
+                    <li>Cebola</li>
+                    <li>Pimentão</li>
+                </ul>
+            </li>
+            <li>
+                Cereais
+                <ul>
+                    <li>Arroz</li>
+                    <li>Feijão</li>
+                </ul>
+            </li>
+        </ol>
+
+        <table>
+            <caption>Lucro por mês</caption>
+            <thead>
+              <tr>
+                <th>Mês</th>
+                <th>Frutas</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td>Banana</td>
+                <td>Maça</td>
+              </tr>
+              <tr>
+                <td>Janeiro</td>
+                <td>100</td>
+                <td>50</td>
+              </tr>
+              
+              <tr>
+                <td>Fevereiro</td>
+                <td>120</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <td>Março</td>
+                <td>120</td>
+                <td>150</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>Total</td>
+                <td>340</td>
+                <td>300</td>
+              </tr>
+            </tfoot>
+          </table>
+        <a href="https://ifrs.edu.br/" target="_blank">
+            <img src="/imgs/img.png" alt="imagem link ifrs">
+        </a>
+        <figure>
+            <img src="/imgs/img2.jpg" alt="imagem">
+            <figcaption>Imagem com figure</figcaption>
+        </figure>
+        <form>
+            <fieldset>
+              <legend>Informações Pessoais</legend>
+          
+                <label for="nome">Nome:<input type="text" id="nome" name="nome" required></label>
+                <label for="email">E-mail:<input type="email" id="email" name="email" required></label>
+                <label for="telefone">Telefone:<input type="tel" id="telefone" name="telefone" pattern="[0-9]{10,11}" placeholder="(XX) XXXXX-XXXX"></label>
+                <label for="idade">Idade:<input type="number" id="idade" name="idade" min="18" max="120"></label>
+                <label for="genero">Gênero:</label>
+                <select id="genero" name="genero">
+                  <option value="masculino">Masculino</option>
+                  <option value="feminino">Feminino</option>
+                  <option value="outro">Outro</option>
+                </select>
+            </fieldset>
+            <fieldset>
+              <legend>Preferências</legend>
+                <label for="cor">Cor Favorita:<input type="color" id="cor" name="cor"></label>
+                <label for="aniversario">Data de Aniversário:<input type="date" id="aniversario" name="aniversario"></label>
+                <label for="nivel">Nível de Experiência (de 1 a 5):<input type="range" id="nivel" name="nivel" min="1" max="5"></label>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="40"></textarea>
+                <label for="arquivo">Enviar Arquivo:<input type="file" id="arquivo" name="arquivo"></label>
+            </fieldset>
+            <button type="submit">Enviar</button>
+          </form>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/CELqNBjpdms?si=zMKCJ4xunnsqu5O4" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </main>
+    <footer>
+        <p>Endereço de uma empresa</p>
+    </footer>
+</body>
+</html>
