@@ -7,7 +7,7 @@ Na tag header coloque:
 
 -Um título com tag h1. Abaixo coloque uma tag <p></p> e dentro do parágrafo coloque textos com
 
-as tags <i> e <b>
+as tags \<i\> e \<b\>
 
 Na tag nav coloque a seguinte lista:
 
